@@ -28,8 +28,8 @@ pipeline {
             }
             steps {
                 //sh 'docker login --username=$DOCKER_HUB_LOGIN_USR --password=$DOCKER_HUB_LOGIN_PSW'
-                sh 'echo "msc@123" | sudo -S -k docker login --username=msrinivascharan --password=abcd'
-                sh 'echo "msc@123" | sudo -S -k ./gradlew dockerPush'
+                sh 'echo "user123" | sudo -S -k docker login --username=64531828 --password=Snoopdogg@28
+                sh 'echo "user123" | sudo -S -k ./gradlew dockerPush'
             }
         }
     }
